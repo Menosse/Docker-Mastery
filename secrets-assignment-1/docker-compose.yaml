@@ -32,3 +32,6 @@ volumes:
 secrets:
   psql-pw:
     external: true
+
+
+# echo "mypass" | docker secret create psql-pw -
